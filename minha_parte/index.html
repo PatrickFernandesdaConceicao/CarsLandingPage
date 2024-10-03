@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailer e Imagens</title>
+    <style>
+        
+        body {
+            background-color: black;
+            padding: 20px;
+        }
+
+        
+        #rhapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .treiler{
+            width: 80%;
+        }
+        
+        .treiler iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            border: solid 1px #c85b5b;
+        }
+ 
+        #fotos-titulo {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            position: relative;
+            color: white;
+        }
+     
+        #fotos-titulo::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        
+        #image-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            width: 80%;
+        }
+
+        .image-coluna {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #image-wrapper img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; 
+            border-radius: 10px; 
+            border: solid 1px #c85b5b;
+        }
+        #Maior-foto{
+            width: 80%;
+            height: 480px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid #c85b5b;
+            margin: 20px 0; 
+        }
+    
+        #abaixo{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            gap: 20px;
+        }
+        #abaixo img{
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid #c85b5b;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="rhapper">
+        <div id="fotos-titulo">TRAILER</div>
+        <div class="treiler">
+            <iframe src="https://www.youtube.com/embed/W_H7_tDHFE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        
+        <div id="fotos-titulo">FOTOS</div>
+        
+        <div id="image-wrapper">
+            <div class="image-coluna">
+                <img src="img_carros/1.jpg" alt="1">
+                <img src="img_carros/2.jpg" alt="2">
+                <img src="img_carros/3.jpg" alt="3">
+            </div>
+            <div class="image-coluna">
+                <img src="img_carros/CARS Clip - _Lightning McQueen Helps The King_ (2006).jpg" alt="4">
+                <img src="img_carros/download (1).jpg" alt="5">
+                <img src="img_carros/download (2).jpg" alt="6">
+            </div>
+        </div>
+                <img id="Maior-foto" src="img_carros/image 21.png" alt="7">
+
+                <div id="abaixo">
+                    <img src="img_carros/image 22.png" alt="8">
+                    <img src="img_carros/image 23.png" alt="9">
+                </div>
+        
+
+            
+    </div>
+
+</body>
+</html>
