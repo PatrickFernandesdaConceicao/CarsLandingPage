@@ -1,3 +1,4 @@
+/*Patrick*/
 async function requisitarDadosDaApi(){
     const resposta = await fetch("https://www.omdbapi.com/?i=tt0317219&plot=full&apikey=20950641", {
         method: "GET"
