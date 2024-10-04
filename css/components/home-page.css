@@ -1,0 +1,68 @@
+.section-home-page {
+    background-image: url(../../img/cars-fundo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+
+.text-home{
+    width: 50%;
+    color: white;
+    padding-top: 150px;
+}
+.img-home-div img{
+    border-radius: 30px;
+    margin-bottom: 15px;
+    width: 431px;
+}
+.img-home-div p{
+    color: white;
+    font-size: 20px;
+    padding:15px 15px 15px 50px;
+    background-image: url(../../img/indicação.png);
+    background-repeat: no-repeat;
+    background-size:30px;
+    background-position: left center;
+}
+.text-home{
+    font-size: 26px;
+}
+.plot{
+    margin-bottom: 150px;
+}
+
+.home-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+#metascore{
+    padding: 0px 7px;
+    margin-right: 10px;
+    background-color: #54A72A;
+    border-radius: 4px;
+    display: f;
+    align-self: center;
+}
+#imdbRating{
+    background-image: url(../../img/imdb-icon.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#rottenTomatoesRating{
+    background-image: url(../../img/Rotten_Tomatoes.png);
+    padding: 15px 15px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.disney-home-img{
+    text-align: center;
+}

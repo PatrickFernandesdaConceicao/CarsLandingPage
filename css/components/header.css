@@ -1,0 +1,24 @@
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 0px;
+    font-size: 24px;
+}
+.ul-header ul{
+    display: flex;
+
+}
+.ul-header a{
+    text-decoration: none;
+    color:white;
+    margin-right: 15px;
+}
+.ul-header a:hover{
+    color:#b91c23;
+}
+.logo-header img{
+    width: 140px;
+}

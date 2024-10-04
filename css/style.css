@@ -1,0 +1,9 @@
+@import url(components/header.css);
+@import url(components/home-page.css);
+@import url(components/elenco.css);
+
+html{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
