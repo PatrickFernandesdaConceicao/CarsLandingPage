@@ -1,0 +1,75 @@
+.section-curiosidades{
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16pt;
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.texto-centralizado {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.texto-centralizado2 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.imagem-texto, .texto {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.imagem-texto img {
+    max-width: 80%;
+    height: auto;
+}
+.linha-duplo-texto {
+    width: 500px;
+    margin: 0 ;
+    text-align: justify;
+    display: flex;
+}
+.linha-imagem-centro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.imagem-centro {
+    width: 25%;
+}
+.quatro-textos {
+    width: 20%;
+    text-align: justify;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+}

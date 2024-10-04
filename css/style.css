@@ -1,6 +1,9 @@
 @import url(components/header.css);
 @import url(components/home-page.css);
 @import url(components/elenco.css);
+@import url(components/Midia.css);
+@import url(components/curiosidades.css);
+@import url(components/detalhes.css);
 
 html{
     font-family: "Bebas Neue", sans-serif;
